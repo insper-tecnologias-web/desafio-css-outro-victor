@@ -27,9 +27,45 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-/* Você pode usar o CSS comentado abaixo, se ajudar */
-/* Fonte: https://codepen.io/CrisWoler/pen/ogXBLj */
-/* .btn {
+.appbar {
+  display: flex;
+  background-color: #f7d736;
+  align-items: center;
+  padding: 1%;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  gap: 0.8em;
+}
+
+.logo{
+  height: 7%;
+  width: 7%;
+}
+
+.form-card {
+  display:flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+  padding: 10px;
+  margin: 2% 30% 2% 30%;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  border-radius: 6px;
+}
+
+form input {
+  border: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 0.1em 1em 1em 0em;
+}
+
+form textarea {
+  border: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
+.btn {
   position: relative;
   display: block;
   padding: 10px 15px;
@@ -45,6 +81,10 @@ body {
 
   transition: background-color 0.3s;
 }
+
+/* Você pode usar o CSS comentado abaixo, se ajudar */
+/* Fonte: https://codepen.io/CrisWoler/pen/ogXBLj */
+
 
 .btn > * {
   position: relative;
@@ -77,4 +117,4 @@ body {
   padding-top: 120%;
 
   transition: width 0.2s ease-out, padding-top 0.2s ease-out;
-} */
+}
