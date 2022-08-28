@@ -31,20 +31,19 @@ body {
   display: flex;
   background-color: #f7d736;
   align-items: center;
-  padding: 1%;
+  padding: 0.8%;
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
   gap: 0.8em;
 }
 
 .logo{
-  height: 7%;
-  width: 7%;
+  height: 6%;
+  width: 6%;
 }
 
 .form-card {
   display:flex;
   flex-direction: column;
-  /* justify-content: space-around; */
   padding: 10px;
   margin: 2% 30% 2% 30%;
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
@@ -82,10 +81,6 @@ form textarea {
   transition: background-color 0.3s;
 }
 
-/* Você pode usar o CSS comentado abaixo, se ajudar */
-/* Fonte: https://codepen.io/CrisWoler/pen/ogXBLj */
-
-
 .btn > * {
   position: relative;
 }
@@ -117,4 +112,36 @@ form textarea {
   padding-top: 120%;
 
   transition: width 0.2s ease-out, padding-top 0.2s ease-out;
+}
+
+.card-container{
+  display:flex;
+  flex-wrap: wrap;
+  margin: 0.8em;
+  justify-content: space-evenly;
+  row-gap: 1.2em;
+  column-gap: 0.6em;
+}
+
+.card {
+  display:flex;
+  width: 12em;
+  height: 8em;
+  flex-direction: column;
+  padding-left:0.5em;
+  font-weight: bold;
+  font-family: 'Permanent Marker', cursive;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  background-color: #ead3a7, #9de0f5, #ef89ba, #fae890, #abe9c1;
+  border-radius: 0.3em;
+  justify-content: space-around;
+}
+
+.card-title {
+  font-size: 1.2em;
+}
+
+.card-content {
+  color: #4c4c4c;
+  align-self: center;
 }
