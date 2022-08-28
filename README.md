@@ -3,7 +3,7 @@
 Grupo:
 
 - VICTOR LUIS GAMA DE ASSIS
-- Link do GitHub Pages: https://github.com/insper-tecnologias-web/desafio-css-outro-victor.git
+- Link do GitHub Pages: https://insper-tecnologias-web.github.io/desafio-css-outro-victor/
 
 ## Desafio CSS
 
