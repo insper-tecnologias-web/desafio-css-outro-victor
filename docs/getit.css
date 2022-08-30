@@ -120,7 +120,7 @@ form textarea {
   margin: 0.8em;
   justify-content: space-evenly;
   row-gap: 1.2em;
-  column-gap: 0.2em;
+  column-gap: 0.6em;
 }
 
 .card {
